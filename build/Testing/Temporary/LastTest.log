@@ -1,0 +1,19 @@
+Start testing: May 12 23:01 대한민국 표준시
+----------------------------------------------------------
+1/1 Testing: PrimeCheckerTest
+1/1 Test: PrimeCheckerTest
+Command: "C:/DEV_BR/PrimeChecker_06/build/prime_checker_test.exe"
+Directory: C:/DEV_BR/PrimeChecker_06/build
+"PrimeCheckerTest" start time: May 12 23:01 대한민국 표준시
+Output:
+----------------------------------------------------------
+All tests passed!
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"PrimeCheckerTest" end time: May 12 23:01 대한민국 표준시
+"PrimeCheckerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 12 23:01 대한민국 표준시

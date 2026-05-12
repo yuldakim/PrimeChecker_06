@@ -14,7 +14,9 @@
 		"commands" : 
 		[
 			"add_executable",
+			"target_link_options",
 			"target_link_libraries",
+			"target_compile_options",
 			"include_directories"
 		],
 		"files" : 
@@ -35,11 +37,23 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 12,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
 				"file" : 0,
 				"line" : 7,
 				"parent" : 0
@@ -54,7 +68,7 @@
 	"compileDependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "prime_checker::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -65,12 +79,16 @@
 			[
 				{
 					"fragment" : "-g -std=gnu++17"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "--coverage"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 5,
 					"path" : "C:/DEV_BR/PrimeChecker_06/include"
 				}
 			],
@@ -92,7 +110,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "prime_checker::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -107,6 +125,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "--coverage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "libprime_checker.a",
 				"role" : "libraries"
 			},
@@ -120,7 +143,7 @@
 	"linkLibraries" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "prime_checker::@6890427a1f51a3e7e1df"
 		}
 	],

@@ -1,19 +1,19 @@
 [
 {
   "directory": "C:/DEV_BR/PrimeChecker_06/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/prime_checker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\prime_checker.dir\\src\\PrimeChecker.cpp.obj -c C:\\DEV_BR\\PrimeChecker_06\\src\\PrimeChecker.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/prime_checker.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\prime_checker.dir\\src\\PrimeChecker.cpp.obj -c C:\\DEV_BR\\PrimeChecker_06\\src\\PrimeChecker.cpp",
   "file": "C:/DEV_BR/PrimeChecker_06/src/PrimeChecker.cpp",
   "output": "CMakeFiles/prime_checker.dir/src/PrimeChecker.cpp.obj"
 },
 {
   "directory": "C:/DEV_BR/PrimeChecker_06/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/prime_checker_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\prime_checker_app.dir\\src\\main.cpp.obj -c C:\\DEV_BR\\PrimeChecker_06\\src\\main.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/prime_checker_app.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\prime_checker_app.dir\\src\\main.cpp.obj -c C:\\DEV_BR\\PrimeChecker_06\\src\\main.cpp",
   "file": "C:/DEV_BR/PrimeChecker_06/src/main.cpp",
   "output": "CMakeFiles/prime_checker_app.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/DEV_BR/PrimeChecker_06/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/prime_checker_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\prime_checker_test.dir\\tests\\PrimeCheckerTest.cpp.obj -c C:\\DEV_BR\\PrimeChecker_06\\tests\\PrimeCheckerTest.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/prime_checker_test.dir/includes_CXX.rsp -g -std=gnu++17 --coverage -o CMakeFiles\\prime_checker_test.dir\\tests\\PrimeCheckerTest.cpp.obj -c C:\\DEV_BR\\PrimeChecker_06\\tests\\PrimeCheckerTest.cpp",
   "file": "C:/DEV_BR/PrimeChecker_06/tests/PrimeCheckerTest.cpp",
   "output": "CMakeFiles/prime_checker_test.dir/tests/PrimeCheckerTest.cpp.obj"
 }

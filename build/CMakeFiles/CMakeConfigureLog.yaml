@@ -11,97 +11,6 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_MAKE_PROGRAM"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mingw32-make.exe"
-    candidate_directories:
-      - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
-      - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
-      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
-      - "C:/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
-      - "C:/Program Files/Microsoft SQL Server/130/DTS/Binn/"
-      - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
-      - "C:/Program Files/Azure Data Studio/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Cppcheck/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/"
-      - "C:/Strawberry/c/bin/"
-      - "C:/Strawberry/perl/site/bin/"
-      - "C:/Strawberry/perl/bin/"
-      - "/REGISTRY-NOTFOUND/bin/"
-      - "c:/MinGW/bin/"
-      - "/MinGW/bin/"
-      - "/REGISTRY-NOTFOUND/MinGW/bin/"
-    searched_directories:
-      - "C:/mingw64/bin/mingw32-make.exe.com"
-    found: "C:/mingw64/bin/mingw32-make.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\windows\\system32"
-        - "C:/windows"
-        - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
-        - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
-        - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
-        - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
-        - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
-        - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
-        - "C:\\Strawberry\\perl\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
       - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
       - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
       - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
@@ -126,41 +35,37 @@ events:
     found: "C:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "message-v1"
@@ -205,7 +110,6 @@ events:
       - "ar"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -236,41 +140,37 @@ events:
     found: "C:/mingw64/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -293,7 +193,6 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -324,41 +223,37 @@ events:
     found: "C:/mingw64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -381,7 +276,6 @@ events:
       - "strip"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -412,41 +306,37 @@ events:
     found: "C:/mingw64/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -469,7 +359,6 @@ events:
       - "ld"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -500,41 +389,37 @@ events:
     found: "C:/mingw64/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -557,7 +442,6 @@ events:
       - "nm"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -588,41 +472,37 @@ events:
     found: "C:/mingw64/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -645,7 +525,6 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -676,41 +555,37 @@ events:
     found: "C:/mingw64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -733,7 +608,6 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -764,41 +638,37 @@ events:
     found: "C:/mingw64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -821,7 +691,6 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -852,41 +721,37 @@ events:
     found: "C:/mingw64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -909,7 +774,6 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -940,41 +804,37 @@ events:
     found: "C:/mingw64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -997,7 +857,6 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1028,41 +887,37 @@ events:
     found: "C:/mingw64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -1085,7 +940,6 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1115,9 +969,6 @@ events:
       - "C:/mingw64/bin/tapi.com"
       - "C:/mingw64/bin/tapi.exe"
       - "C:/mingw64/bin/tapi"
-      - "C:/usr/bin/tapi.com"
-      - "C:/usr/bin/tapi.exe"
-      - "C:/usr/bin/tapi"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/tapi.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/tapi"
@@ -1196,41 +1047,37 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -1256,7 +1103,6 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1286,9 +1132,6 @@ events:
       - "C:/mingw64/bin/gcc-ar-15.2.com"
       - "C:/mingw64/bin/gcc-ar-15.2.exe"
       - "C:/mingw64/bin/gcc-ar-15.2"
-      - "C:/usr/bin/gcc-ar-15.2.com"
-      - "C:/usr/bin/gcc-ar-15.2.exe"
-      - "C:/usr/bin/gcc-ar-15.2"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2"
@@ -1367,9 +1210,6 @@ events:
       - "C:/mingw64/bin/gcc-ar-15.com"
       - "C:/mingw64/bin/gcc-ar-15.exe"
       - "C:/mingw64/bin/gcc-ar-15"
-      - "C:/usr/bin/gcc-ar-15.com"
-      - "C:/usr/bin/gcc-ar-15.exe"
-      - "C:/usr/bin/gcc-ar-15"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15"
@@ -1448,9 +1288,6 @@ events:
       - "C:/mingw64/bin/gcc-ar15.com"
       - "C:/mingw64/bin/gcc-ar15.exe"
       - "C:/mingw64/bin/gcc-ar15"
-      - "C:/usr/bin/gcc-ar15.com"
-      - "C:/usr/bin/gcc-ar15.exe"
-      - "C:/usr/bin/gcc-ar15"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar15.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar15.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ar15"
@@ -1530,41 +1367,37 @@ events:
     found: "C:/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -1590,7 +1423,6 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1620,9 +1452,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-15.2.com"
       - "C:/mingw64/bin/gcc-ranlib-15.2.exe"
       - "C:/mingw64/bin/gcc-ranlib-15.2"
-      - "C:/usr/bin/gcc-ranlib-15.2.com"
-      - "C:/usr/bin/gcc-ranlib-15.2.exe"
-      - "C:/usr/bin/gcc-ranlib-15.2"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2"
@@ -1701,9 +1530,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-15.com"
       - "C:/mingw64/bin/gcc-ranlib-15.exe"
       - "C:/mingw64/bin/gcc-ranlib-15"
-      - "C:/usr/bin/gcc-ranlib-15.com"
-      - "C:/usr/bin/gcc-ranlib-15.exe"
-      - "C:/usr/bin/gcc-ranlib-15"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15"
@@ -1782,9 +1608,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib15.com"
       - "C:/mingw64/bin/gcc-ranlib15.exe"
       - "C:/mingw64/bin/gcc-ranlib15"
-      - "C:/usr/bin/gcc-ranlib15.com"
-      - "C:/usr/bin/gcc-ranlib15.exe"
-      - "C:/usr/bin/gcc-ranlib15"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15.com"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15.exe"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15"
@@ -1864,41 +1687,37 @@ events:
     found: "C:/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
   -
     kind: "find-v1"
@@ -1923,8 +1742,6 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
-      - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1941,6 +1758,7 @@ events:
       - "C:/Program Files/Azure Data Studio/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/mingw64/bin/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Cppcheck/"
       - "C:/Program Files/Git/cmd/"
@@ -1950,9 +1768,6 @@ events:
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
-      - "/mingw64/bin/"
-      - "/mingw64/sbin/"
-      - "/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1966,49 +1781,92 @@ events:
       - "C:/Program Files (x86)/PrimeChecker/sbin/"
       - "C:/Program Files (x86)/PrimeChecker/"
     searched_directories:
+      - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/windres.com"
+      - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/windres.exe"
+      - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/windres.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/windres.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/windres"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/windres.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/windres.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/windres"
+      - "C:/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/windres.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/windres.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/windres"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/windres.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/windres.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/windres"
+      - "C:/Program Files/Microsoft SQL Server/130/DTS/Binn/windres.com"
+      - "C:/Program Files/Microsoft SQL Server/130/DTS/Binn/windres.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/DTS/Binn/windres"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/windres.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/windres.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/windres"
+      - "C:/Program Files/Azure Data Studio/bin/windres.com"
+      - "C:/Program Files/Azure Data Studio/bin/windres.exe"
+      - "C:/Program Files/Azure Data Studio/bin/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/Microsoft VS Code/bin/windres.com"
+      - "C:/Program Files/Microsoft VS Code/bin/windres.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/windres"
       - "C:/mingw64/bin/windres.com"
     found: "C:/mingw64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Users/jyk17/AppData/Local/Programs/Microsoft VS Code"
+        - "C:\\Users\\jyk17\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\windows\\system32"
-        - "C:/windows"
+        - "C:\\windows"
         - "C:\\windows\\System32\\Wbem"
-        - "C:/windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\windows\\System32\\OpenSSH\\"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
-        - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\"
         - "C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\"
-        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\"
-        - "C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\"
         - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
         - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PrimeChecker"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/mingw64"
@@ -2022,8 +1880,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8"
-      binary: "C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8"
+      source: "C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv"
+      binary: "C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2034,13 +1892,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8'
+        Change Dir: 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4b845/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4b845.dir\\build.make CMakeFiles/cmTC_4b845.dir/build
-        mingw32-make[1]: Entering directory 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8'
-        Building CXX object CMakeFiles/cmTC_4b845.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_07ec4/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_07ec4.dir\\build.make CMakeFiles/cmTC_07ec4.dir/build
+        mingw32-make[1]: Entering directory 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv'
+        Building CXX object CMakeFiles/cmTC_07ec4.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2049,8 +1907,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4b845.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_4b845.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccB1mAJ8.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_07ec4.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_07ec4.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\jyk17\\AppData\\Local\\Temp\\cc1TgH07.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -2075,14 +1933,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 319b0e6276b9caf8af1dcdd751e03d94
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4b845.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccB1mAJ8.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_07ec4.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jyk17\\AppData\\Local\\Temp\\cc1TgH07.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_4b845.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4b845.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_07ec4.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_07ec4.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2094,16 +1952,16 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b845.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b845.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccO1iBig.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4b845.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_4b845.dir/objects.a --no-whole-archive --out-implib libcmTC_4b845.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07ec4.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_07ec4.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\cca22DTd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_07ec4.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_07ec4.dir/objects.a --no-whole-archive --out-implib libcmTC_07ec4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccO1iBig.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4b845.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_4b845.dir/objects.a --no-whole-archive --out-implib libcmTC_4b845.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\cca22DTd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_07ec4.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_07ec4.dir/objects.a --no-whole-archive --out-implib libcmTC_07ec4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b845.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b845.'
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_4b845.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4b845.dir/objects.a @CMakeFiles\\cmTC_4b845.dir\\objects1.rsp
-        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_4b845.dir/objects.a -Wl,--no-whole-archive -o cmTC_4b845.exe -Wl,--out-implib,libcmTC_4b845.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07ec4.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_07ec4.'
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_07ec4.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_07ec4.dir/objects.a @CMakeFiles\\cmTC_07ec4.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_07ec4.dir/objects.a -Wl,--no-whole-archive -o cmTC_07ec4.exe -Wl,--out-implib,libcmTC_07ec4.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv'
         
       exitCode: 0
   -
@@ -2144,13 +2002,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8']
+        ignore line: [Change Dir: 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4b845/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4b845.dir\\build.make CMakeFiles/cmTC_4b845.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-ddx2p8']
-        ignore line: [Building CXX object CMakeFiles/cmTC_4b845.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_07ec4/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_07ec4.dir\\build.make CMakeFiles/cmTC_07ec4.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/DEV_BR/PrimeChecker_06/build/CMakeFiles/CMakeScratch/TryCompile-1hcyiv']
+        ignore line: [Building CXX object CMakeFiles/cmTC_07ec4.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2159,8 +2017,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4b845.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_4b845.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccB1mAJ8.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_07ec4.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_07ec4.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\jyk17\\AppData\\Local\\Temp\\cc1TgH07.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -2185,8 +2043,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 319b0e6276b9caf8af1dcdd751e03d94]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4b845.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccB1mAJ8.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_07ec4.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jyk17\\AppData\\Local\\Temp\\cc1TgH07.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -2197,9 +2055,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4b845.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_4b845.exe]
-        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4b845.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_07ec4.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_07ec4.exe]
+        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_07ec4.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2218,13 +2076,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b845.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b845.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccO1iBig.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4b845.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_4b845.dir/objects.a --no-whole-archive --out-implib libcmTC_4b845.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07ec4.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_07ec4.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\cca22DTd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_07ec4.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_07ec4.dir/objects.a --no-whole-archive --out-implib libcmTC_07ec4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\ccO1iBig.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\jyk17\\AppData\\Local\\Temp\\cca22DTd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2246,7 +2104,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_4b845.exe] ==> ignore
+          arg [cmTC_07ec4.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2257,10 +2115,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_4b845.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_07ec4.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_4b845.dll.a] ==> ignore
+          arg [libcmTC_07ec4.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
