@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PrimeChecker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "prime_checker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prime_checker-Debug-16ce39282b60138a35c7.json",
+					"name" : "prime_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prime_checker_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prime_checker_app-Debug-0fbe76a09cf646d73bb0.json",
+					"name" : "prime_checker_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prime_checker_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prime_checker_test-Debug-bd49128da89705b9a569.json",
+					"name" : "prime_checker_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/DEV_BR/PrimeChecker_06/build",
+		"source" : "C:/DEV_BR/PrimeChecker_06"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

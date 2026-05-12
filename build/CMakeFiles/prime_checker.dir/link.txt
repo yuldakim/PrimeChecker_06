@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libprime_checker.a CMakeFiles/prime_checker.dir/src/PrimeChecker.cpp.obj
+C:\mingw64\bin\ranlib.exe libprime_checker.a

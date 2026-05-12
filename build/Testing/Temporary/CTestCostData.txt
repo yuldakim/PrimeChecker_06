@@ -1,0 +1,2 @@
+PrimeCheckerTest 1 0.017485
+---
